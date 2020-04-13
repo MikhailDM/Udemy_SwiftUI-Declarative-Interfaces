@@ -14,6 +14,7 @@
 		2766501E244464E2001EF88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2766501D244464E2001EF88C /* Preview Assets.xcassets */; };
 		27665021244464E2001EF88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2766501F244464E2001EF88C /* LaunchScreen.storyboard */; };
 		27665029244464F2001EF88C /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27665028244464F2001EF88C /* UserSettings.swift */; };
+		2766502B244468F0001EF88C /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766502A244468F0001EF88C /* FancyScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		27665020244464E2001EF88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27665022244464E2001EF88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27665028244464F2001EF88C /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		2766502A244468F0001EF88C /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				27665014244464E0001EF88C /* AppDelegate.swift */,
 				27665016244464E0001EF88C /* SceneDelegate.swift */,
 				27665018244464E0001EF88C /* ContentView.swift */,
+				2766502A244468F0001EF88C /* FancyScoreView.swift */,
+				27665028244464F2001EF88C /* UserSettings.swift */,
 				2766501A244464E2001EF88C /* Assets.xcassets */,
 				2766501F244464E2001EF88C /* LaunchScreen.storyboard */,
 				27665022244464E2001EF88C /* Info.plist */,
 				2766501C244464E2001EF88C /* Preview Content */,
-				27665028244464F2001EF88C /* UserSettings.swift */,
 			);
 			path = "08_Observable-Example";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				27665015244464E0001EF88C /* AppDelegate.swift in Sources */,
 				27665029244464F2001EF88C /* UserSettings.swift in Sources */,
+				2766502B244468F0001EF88C /* FancyScoreView.swift in Sources */,
 				27665017244464E0001EF88C /* SceneDelegate.swift in Sources */,
 				27665019244464E0001EF88C /* ContentView.swift in Sources */,
 			);
